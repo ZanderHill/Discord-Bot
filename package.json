@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "ok",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZanderHill/Discord-Bot.git"
+  },
+  "keywords": [
+    "bruh"
+  ],
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZanderHill/Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/ZanderHill/Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.12.1"
+  }
+}
