@@ -10,9 +10,9 @@ dotenv.config();
 const rest = new Discord.REST().setToken(process.env.DISCORD_SECRET_TOKEN);
 
 const safeword = 'quail'; // case-insensitive safeword
-const auditChannelID = '1136808329625206814'; // ID of the channel where the audit logs should be sent
-const seriousChannelID = '1136807305569120267'; // ID of the channel to redirect conversation to
-const modRoleID = '1137525833121144915'; // ID of the mod role
+const auditChannelID = '1137594982136561715'; // ID of the channel where the audit logs should be sent
+const seriousChannelID = '590944769849557012'; // ID of the channel to redirect conversation to
+const modRoleID = '591018156839927808'; // ID of the mod role
 
 client.on('messageCreate', message => {
   if (message.content.toLowerCase() === safeword.toLowerCase() && !message.author.bot) {
